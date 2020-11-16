@@ -1,0 +1,408 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    background-color: green;
+    height:3.5em;
+    
+}
+img{
+    margin-left:2%;
+    margin-top: 6px;
+   
+}
+.header{
+    float:right;
+    margin-top: 16px;
+    margin-right: 2%;
+
+}
+.header a{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-decoration: none;
+   color: white;
+   border: 2px solid black;
+   padding:4px;
+   margin-right: 8px;
+}
+.header a:hover{
+    color:whitesmoke;
+    background-color: brown;
+    transition: 0.5 ease-in-out;
+    text-decoration: none;
+}
+
+.myMargin{
+    background-attachment: fixed;
+    margin-left: none;
+    padding:none;
+    margin:none;
+}
+
+.welcome{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    padding-left: 1em;
+}
+/* login */
+.login{
+    border:2px solid green;
+    float:right;
+    margin-right: 34em;
+    margin-top: 6em;
+    padding:20px;
+    background-color: silver;
+height:16em;
+width:14em;
+}
+
+.login h2{
+    text-align: center;
+    color:green
+
+}
+.login-class input{
+ height:2em;
+}
+#login3{
+    background-color:greenyellow;
+    width:4em;
+    margin-left: 38%;
+}
+/* login end */
+
+/* signup */
+.signup{
+    border:2px solid green;
+    float:right;
+    margin-right: 34em;
+    margin-top: 4em;
+    padding:20px;
+    background-color:silver;
+height:28em;
+width:14em;
+}
+.signup h2{
+    text-align: center;
+
+    color:green
+}
+.sign-class input{
+ height:2em;
+}
+#sign3{
+    background-color:greenyellow;
+    width:29%;
+   margin-left: 35%;
+   
+}
+/* signup end */
+
+/* district */
+.first-block{
+    border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:39em;
+    padding:5px;
+    text-align: justify;
+    background-color: hotpink;
+    margin-right: 10px;
+    
+}
+.second-block{
+    border:2px solid greenyellow;
+    width:23%;
+    border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:42em;
+    padding:5px;
+    text-align: justify;
+    background-color: hotpink;
+    margin-right: 10px;
+    margin-top: 15px;
+    
+}
+.third-block{
+    border:2px solid greenyellow;
+    width:23%;
+    border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:48em;
+    padding:5px;
+    text-align: justify;
+    background-color: hotpink;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.fourth-block{
+    border:2px solid greenyellow;
+    width:23%;
+    border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:46em;
+    padding:5px;
+    text-align: justify;
+    background-color: hotpink;
+    margin-right: 10px;
+    margin-top: 15px;
+    
+}
+
+.first-block a{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+.second-block a{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+.third-block a{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+.fourth-block a{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+/* distrit end */
+
+
+/* destnation */
+.first-part{
+    margin-top: 10px;
+
+ border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:36em;
+    padding:5px;
+    text-align: justify;
+    background-color:yellowgreen;
+    margin-right: 10px;    
+}
+
+.second-part{
+    border:2px solid greenyellow;
+    width:23%;
+    border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:46em;
+    padding:5px;
+    text-align: justify;
+    background-color:wheat;
+    margin-right: 10px;
+    margin-top: 15px;
+      
+}
+
+.third-part{
+    border:2px solid greenyellow;
+    width:23%;
+    border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:42em;
+    padding:5px;
+    text-align: justify;
+    background-color: yellowgreen;
+    margin-right: 10px;
+    margin-top: 15px; 
+}
+ 
+.fourth-part{
+    border:2px solid greenyellow;
+    width:23%;
+    border:2px solid greenyellow;
+    width:23%;
+    float:left;
+    margin-left: 15px;
+    height:43em;
+    padding:5px;
+    text-align: justify;
+    background-color: rosybrown;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.first-part h4{
+    text-align: center;
+}
+
+.second-part h4{
+    text-align: center;
+}
+
+.third-part h4{
+    text-align: center;
+}
+.fourth-part h4{
+    text-align: center;
+}
+.block1 .first-block:hover{
+    background-color: teal;
+    color:whitesmoke;
+}
+.block1 a:hover{
+    background-color:black;
+    color:white;
+
+}
+.block2 .second-block:hover{
+    background-color: teal;
+    color:whitesmoke;
+}
+.block2 a:hover{
+    background-color:black;
+    color:white;
+}
+.block3 .third-block:hover{
+    background-color: teal;
+    color:whitesmoke;
+}
+.block3 a:hover{
+    background-color:black;
+    color:white;
+}
+.block4 .fourth-block:hover{
+    background-color: teal;
+    color:whitesmoke;
+}
+.block4 a:hover{
+    background-color:black;
+    color:white;
+}
+ /* district end */
+
+/* district individual */
+.alappuzha{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.trivandrum{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.ernakulam{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.idukki{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.kannur{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.kasargod{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.kollam{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.kottayam{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.kozhikode{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.malappuram{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.palakkad{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.pathanam{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.thrissur{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.wayanad{
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* end */
+.sub1 hr{
+  font-size: medium; 
+  color: red;
+
+}
+
+/* footer */
+.footer{
+    position: fixed;
+    width:100%;
+    background-color:white;
+    color: honeydew;
+    text-align: center;
+    height: 1em;
+    margin-top: 40%;
+    margin-right: 0%;
+    }
+/* footer end */
+

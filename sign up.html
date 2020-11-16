@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="CSS/style.css">
+<script src="email.js"></script>
+<script src="mobile.js"></script>
+<script src="password.js"></script>
+    <title>Sign up</title>
+</head>
+<body background="images/1604419022340.jpg">
+    <header>
+        <!-- <body background="images\dup1.jpg"> -->
+            
+        <img src="/images/logo.png" alt=".." width="70px" height="45px">
+        <div class="header">
+            <a href="index.html">Home </a>
+            <a href="district.html">Districts </a>
+            <a href="destination.html">Top Destinations</a>
+        </div>
+        </header>
+    <!-- form -->
+    <body>
+    
+    <form action="index.html" class="signup"  onsubmit="return validate()">
+        <h2> Sign Up </h2>
+        <br>
+        <div class="sign-class">
+        <label> First Name </label>
+        <br>
+        <input type="text" placeholder="First Name" required>
+        </div>
+        <br>
+        <div class="sign-class">
+            <label> Last Name </label>
+            <br>
+            <input type="text" placeholder="Last name" required>
+            </div>
+            <br>
+     <div class="sign-class">
+              
+       <label>Email</label>
+       <br>
+       <input type="email"  placeholder="email" required id="emaill"/>
+       <label for="error" id="error"></label>
+       <br>
+       <br>
+   <div class="sign-class">
+     <label> Phone Number </label>
+     <br>
+    <input type="number" placeholder="phone number" id="mobile"  required>
+    </div>
+        <br>
+    <div class="sign-class">
+    <label for="pass">Password</label>
+    <br>
+    <input type="password"id="pass" name="pass"
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+    title=" minimum 8 characters, at least one number and one uppercase and one lowercase letter.
+    " placeholder="password" required />
+    <br>
+    <br>
+     <div>
+               <button id="sign3"> Sign Up </button>
+            </div>
+            <br>
+            <div>
+                <h4> Already have an account?</h4>
+            </div>
+            <a href="login.html"> Sign in </a>
+    </form>
+    <!-- /form -->
+    
+</body>
+</html>
